@@ -1,0 +1,166 @@
+body {
+    background-color: #7aecb7;
+    background-size: cover;
+    background-position: center;
+    font-family: Lato;
+    font-weight: 300;
+    position: relative;
+    height: 100vh;
+    color: #555;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.remove {
+    display: none;
+}
+input{
+    border: 1px solid #59e4a3;
+    background-color: #fff;
+    color: inherit;
+    font-family: inherit;
+    font-size: 18px;
+    padding: 10px 14px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+.Warnings{
+    font-size: 15px;
+    color: red;
+}
+.column{
+    display: flex;
+    flex-direction: column-reverse;
+   
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.add {
+    padding: 40px;
+    border: 1px solid #59e4a3;
+    background-color: #e7f0b6;
+}
+
+.new_Game {
+    font-size: 35px;
+    background: none;
+    border: none;
+    color: rgb(24, 54, 221);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;   
+    margin-left: 10px;
+}
+.Send-button{
+    font-size: 35px;
+    background: none;
+    border: none;
+    color: #3aBeB5;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.1;
+    margin-left: 10px;
+}
+.nameGame {
+    font-weight: 300;
+    font-size: 46px;
+    text-align: center;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+    color:#7daab2;
+    margin-left: 4px;
+
+
+}
+
+.player-0-panel{
+    width: 200px;
+    height: 240px;
+    color: rgb(201, 62, 62);
+
+}
+.player-1-panel {
+    width: 200px;
+    height: 240px;
+    color: rgb(89, 89, 233);
+
+}
+
+.active { background-color: #19e7d6; }
+.active .player-name { font-weight: 400; }
+.notActive { background-color: #fff; }
+.not.active .player-name { font-weight: 100; }
+.wrapper0 {
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+
+}
+.wrapper1 {
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+
+
+}
+.player-name {
+    font-size: 60px;
+    text-align: center;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.game{
+    background-color: rgb(61, 138, 254);
+    border: 1px solid black;
+    box-shadow: 5px  5px rgba(0, 0, 0, 0.441);
+    margin: 50px;
+
+}
+.dis_play {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.slot{
+    width: 40px;
+    height: 40px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+
+table{
+    display: flex;
+    flex-direction: row;
+}
